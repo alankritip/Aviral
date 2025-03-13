@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviral Srivastava</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/12336/12336151.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="./output.css" rel="stylesheet">
+
+    <style>
+      .swiper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.swiper-slide h3 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Responsive Image Styling */
+.project-img {
+  width: 100%;
+  max-width: 500px; /* Ensures it doesn't get too large */
+  height: auto;
+  aspect-ratio: 5 / 3; /* Maintains aspect ratio */
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide p {
+  font-size: 20px;
+  color: #d1d5db;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .swiper-slide h3 {
+    font-size: 20px;
+  }
+
+  .swiper-slide p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide h3 {
+    font-size: 18px;
+  }
+
+  .swiper-slide p {
+    font-size: 14px;
+  }
+}
+    </style>
+</head>
+<body class="text-[#E0E1DD] bg-[#212124] font-['EB_Garamond']">
+        <!-- Header start-->
+          <header class="bg-[#212124] fixed w-full z-50 p-4">
+            <div class="max-w-full mx-auto  max-md:mx-1 flex justify-between items-center">
+              <div class="object-cover">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-auto max-w-[70px] max-h-[70px]" version="1.1"  viewBox="0 0 64 64"><g><linearGradient id="a"><stop stop-opacity="1" stop-color="#f8ca0f" offset="0"></stop><stop stop-opacity="1" stop-color="#33449e" offset="0"></stop><stop stop-opacity="1" stop-color="#36b889" offset="0.16666664704373926"></stop><stop stop-opacity="1" stop-color="#33449e" offset="0.4058641666429229"></stop><stop stop-opacity="1" stop-color="#33449e" offset="0.6103394656551283"></stop><stop stop-opacity="1" stop-color="#219fa0" offset="0.7530863725127056"></stop><stop stop-opacity="1" stop-color="#33449e" offset="0.8919752548606188"></stop><stop stop-opacity="1" stop-color="#33449e" offset="0.9999999411312178"></stop></linearGradient><linearGradient xlink:href="#a" id="b" x1="17.477" x2="17.477" y1="-3934.076" y2="-3870.927" gradientTransform="matrix(1 0 0 -1 0 -3870.11)" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient xlink:href="#a" id="c" x1="26.075" x2="26.075" y1="-3934.079" y2="-3870.852" gradientTransform="matrix(1 0 0 -1 0 -3870.11)" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient xlink:href="#a" id="d" x1="34.243" x2="34.243" y1="-3934.114" y2="-3870.783" gradientTransform="matrix(1 0 0 -1 0 -3870.11)" gradientUnits="userSpaceOnUse"></linearGradient><linearGradient xlink:href="#a" id="e" x1="42.137" x2="42.137" y1="-3934.097" y2="-3870.819" gradientTransform="matrix(1 0 0 -1 0 -3870.11)" gradientUnits="userSpaceOnUse"></linearGradient><path fill="url(#b)" d="M17.958 39.897c-.838-.071-1.609-.109-2.419.18s-1.814 1.018-2.084 1.853c-.205.634-.418 1.265-.627 1.898l-1.266 3.829-.047.143c-1.144 3.142 1.29 6.761 4.669 6.723a5.102 5.102 0 0 0 4.763-3.38l2.779-8.325c-1.113-.542-4.545-2.817-5.768-2.921zm2.047 10.915c-1.064 3.173-5.651 3.699-7.238.654a4.094 4.094 0 0 1-.303-3.352l1.983-6.001c.914-1.387 3.124-1.656 4.576-.795l3.492 1.968-2.512 7.527z" opacity="1" data-original="url(#b)"></path><path fill="url(#c)" d="M19.725 34.135c2.259-.956 4.781-1.236 7.206-.912l6.304-18.872c.665-1.95 2.099-3.933 4.311-3.669-5.977-2.846-13.588-.477-15.763 6.044l-7.179 21.725c1.376-1.837 2.918-3.39 5.121-4.316zm3.001-17.078c1.551-4.732 6.838-7.506 11.662-6.327-.986.852-1.656 1.987-2.101 3.303l-6.049 18.109c-3.303-.247-6.676.486-9.309 2.458l5.797-17.545z" opacity="1" data-original="url(#c)"></path><path fill="url(#d)" d="m52.617 47.871-.356-1.074c-.732.791-1.92-.332-2.574-.683-4.8-2.775-9.588-5.573-14.419-8.294-2.616-1.474-5.065-3.021-8.06-3.566-4.531-.763-9.35 1.053-11.622 4.73a6.204 6.204 0 0 1 4.543.605l25.027 14.099c4.12 2.428 8.979-1.114 7.461-5.817-.001 0 0 0 0 0zm-1.319 3.803c-1.106 1.961-3.775 2.243-5.651 1.142L20.626 38.721a6.973 6.973 0 0 0-2.814-.883c2.116-2.155 5.941-3.154 9.218-2.6 2.803.503 5.234 2.037 7.748 3.453 3.702 2.085 7.443 4.253 11.06 6.349l3.349 1.939c.726.444 1.481 1.069 2.443 1.092.445 1.209.331 2.545-.332 3.603z" opacity="1" data-original="url(#d)"></path><path fill="url(#e)" d="M36.302 12.03c-1.625.787-1.939 2.477-2.457 4.029l-1.079 3.23 6.47 19.566 12.228 7.075c.06-.145.067-.868-.037-1.699-.7-2.126-9.078-28.238-9.898-29.947-.819-2.007-3.193-3.275-5.227-2.254zm.636.814c1.576-.565 3 .33 3.69 1.87.917 2.104 7.437 22.387 9.713 29.408l-10.274-5.944-6.246-18.889.974-2.915c.464-1.391.779-3.054 2.144-3.531z" opacity="1" data-original="url(#e)" ></path></g></svg>
+              </div>
+              <nav id="menu" class="hidden md:flex space-x-8 text-xl font-semibold text-blue-200">
+                <a href="#home" class=" inline-block hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105  transition-all ease-in-out duration-150 ">Home</a>
+                <a href="#about" class="inline-block  hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105 transition-all ease-in-out duration-150 ">About</a>
+                <a href="#skills" class="inline-block hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105 transition-all ease-in-out duration-150 ">Skills</a>
+                <a href="#Certifications" class="inline-block hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105 transition-all ease-in-out duration-150">Certifications </a>
+                <a href="#projects" class="inline-block hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105 transition-all ease-in-out duration-150">Projects</a>
+                <a href="#contact" class="inline-block hover:[text-shadow:0_0_10px_#11F79B] hover:scale-105 transition-all ease-in-out duration-150">Contact</a>
+              </nav>
+
+              <!-- Mobile Dropdown Menu -->
+              <nav id="mobile-menu" class="hidden rounded-md shadow-lg shadow-gray-800 left-[82%] top-[6rem] right-0 max-md:left-[72%] max-sm:left-[65%] max-sm:top-[6rem] absolute flex-col space-y-4 p-4 text-lg font-semibold transition-transform duration-200 ease-in-out transform -translate-y-full text-blue-200 md:hidden bg-[#212124]">
+               <a href="#home" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">Home</a>
+               <a href="#about" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">About</a>
+               <a href="#skills" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">Skills</a>
+               <a href="#Certifications" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">Certifications</a>
+               <a href="#projects" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">Projects</a>
+               <a href="#contact" class="block hover:[text-shadow:0_0_10px_#11F79B] transition-all">Contact</a>
+              </nav>
+             <div class="flex items-center space-x-4">
+              <button class="bg-gray-400 rounded-full p-0.5 m-1 flex items-center gap-1">
+                <img src="https://cdn-icons-png.flaticon.com/512/11598/11598733.png " alt="bright" class="w-6 h-6 sm:w-8 sm:h-8 min-w-[30px] shrink-0 rounded-full p-0.5 hover:bg-gray-600 transition-all ease-linear duration-100">
+                <img src="https://cdn-icons-png.flaticon.com/512/7291/7291161.png " alt="dark" class="w-6 h-6 sm:w-8 sm:h-8 min-w-[30px] shrink-0 rounded-full p-0.5 hover:bg-gray-600 transition-all ease-linear duration-100">
+               </button>
+               <button id="menu-toggle" class="md:hidden scale-100  text-gray-400 text-2xl m-3 hover:scale-102 hover:text-gray-500 transition-all  ease-linear duration-100">
+                &#9776;
+              </button>
+             </div>
+            </div>
+          </header>
+          <!-- header ends -->
+
+          <!-- home section starts -->
+          <section id="home" class="min-h-screen flex flex-col justify-between px-6 sm:px-10 bg-[#212124] pt-[100px]" data-aos="fade-out" data-aos-duration="1000" data-aos-delay="400">
+            <div class="flex flex-col">
+                <div class="flex flex-col-reverse lg:flex-row items-center justify-between px-6 sm:px-20 lg:text-left mt-[5vh] lg:mt-[8vh">
+                    <!-- Name and Title -->
+                    <div class="flex flex-col text-center lg:text-left gap-4 sm:gap-7">
+                        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Aviral Srivastava</h1>
+                        <h2 class="text-3xl sm:text-4xl md:text-5xl mt-2">I'm a Fullstack Developer...</h2>
+                    </div>
+                    <!-- Right: Image -->
+                    <div class="w-48 sm:w-52 md:w-60 lg:w-[300px] h-48 sm:h-52 md:h-60 lg:h-[300px] p-2 rounded-lg ">
+                        <img src="/assets/logo_img.png" alt="Profile Image" class="w-full h-full object-cover rounded-lg shadow-[0_0_5px_0.5px_#33449e]  hover:drop-shadow-[0_0_5px_#dda0dd] hover:scale-102 transition-all ease-in-out duration-800">
+                    </div>
+                </div>
+                
+                <!-- Download Button and Social Media Icons -->
+                <div class="flex flex-col items-center lg:mt-10 max-lg:mt-5 lg:gap-5 mb-[5vh] text-center" >
+                    <div class="w-full flex justify-center">
+                        <button class="bg-gradient-to-tl cursor-pointer px-5 sm:px-6 py-3 text-lg sm:text-xl font-bold from-[#11F79B] to-[#33449e] rounded-lg hover:bg-gradient-to-bl hover:text-[#33449e] hover:scale-103 transition-all ease-in-out duration-500">Download Resume</button>
+                    </div>
+                    
+                    <div class="flex mt-6 sm:mt-10 gap-6 sm:gap-10 md:gap-12 text-2xl sm:text-3xl text-blue-200">
+                        <a href="#" class="border-4 p-2 border-[#33449e] rounded-full hover:text-[#11F79B] hover:scale-110 transition-all duration-200"><i class='bx bxl-github'></i></a>
+                        <a href="#" class="border-4 p-2 border-[#33449e] rounded-full hover:text-[#11F79B] hover:scale-110 transition-all duration-200"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#" class="border-4 p-2 border-[#33449e] rounded-full hover:text-[#11F79B] hover:scale-110 transition-all duration-200"><i class='bx bxl-discord-alt'></i></a>
+                        <a href="#" class="border-4 p-2 border-[#33449e] rounded-full hover:text-[#11F79B] hover:scale-110 transition-all duration-200"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- home section ends here -->
+
+          <!-- about section starts -->
+          <section id="about" class="py-20 pt-[100px] min-h-screen bg-[#212124] lg:pt-40" data-aos="zoom-in-down" data-aos-delay="500">
+            <div class="container mx-auto px-6 flex flex-col lg:flex-row justify-around items-center">
+              <!-- image div -->
+                <div class="max-w-3xl mx-auto ">
+                    <img src="" alt="Profile Image" class="w-60 sm:w-72 md:w-80 h-60 sm:h-72 md:h-80 mx-auto mb-8 rounded-2xl shadow-[0_0_5px_0.5px_#11F79B] hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800">
+                </div>
+                <div class="max-w-3xl mx-auto rounded-3xl w-full lg:w-[45%] xl:w-[40%] hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800">
+                  <!-- about heading -->
+                    <h2 class="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-400 p-2">About Me</h2>
+                    <!-- about details -->
+                    <p class="p-2 ml-1.5 text-base sm:text-lg leading-relaxed">
+                      I am a passionate and dedicated Computer Science and Engineering student at Kanpur Institute of Technology, graduating in 2025. With a strong foundation in full-stack development, I specialize in the MERN stack, along with proficiency in Java, JavaScript, HTML, and CSS. My technical journey includes developing an E-commerce website (Trend Zaade), designing its UI for a seamless shopping experience.
+                        <!-- hidden content -->
+                        <span id="more-content" class="hidden"> I have also built an Android & iOS Calculator using Flutter and Dart, ensuring cross-platform compatibility.  Additionally, I created a fun and interactive Guess The Number game, enhancing my problem-solving and UI/UX skills. I have interned as a Software Engineer at CodSoft, gaining hands-on experience in real-world applications. Beyond coding, I have a creative side—I enjoy singing, and building robots. I have participated in tech competitions, including Robowar and Roborace, and have a deep interest in robotics and automation. I am always eager to learn, innovate, and take on new challenges in the tech world!
+                        </span>
+                    </p>
+                    <!-- read more button -->
+                    <button id="read-more-btn" class="mt-4 px-3 py-2 bg-gradient-to-br cursor-pointer m-2 from-blue-600 to-green-600 rounded-lg hover:opacity-90 transition-opacity duration-300 flex items-center gap-2">
+                        <i class='bx bx-chevrons-down text-[#E0E1DD]'></i>
+                        <span class="text-[#E0E1DD]">Read More</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends -->
+
+        <!-- skills section start -->
+        <section id="skills" class="py-20 pt-[100px] bg-[#212124]"data-aos="zoom-in-down">
+          <div class="container mx-auto px-6">
+              <h2 class="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-400 p-2">My Skills</h2>
+      
+              <!-- Skill Categories -->
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:gap-10 mt-10" data-aos="zoom-in-down" data-aos-delay="300">
+                  
+                  <!-- Skill Item 1-->
+                  <div class="flex flex-col hover:scale-103 p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out transition-all duration-800 rounded-2xl">
+                      <span class="text-xl font-semibold text-white "><i class='bx bxl-html5 text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>HTML</span>
+                      <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                          <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 90%;"></div>
+                      </div>
+                  </div>
+                  <!-- Skill Item-2 -->
+                  <div class="flex flex-col hover:scale-103 rounded-2xl  p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out  transition-all duration-800">
+                    <span class="text-xl font-semibold text-white "><i class='bx bxl-css3 text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>CSS</span>
+                    <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                        <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 85%;"></div>
+                    </div>
+                </div>
+      
+                   <!-- Skill Item-3 -->
+                   <div class="flex flex-col hover:scale-103 rounded-2xl  p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out transition-all duration-800">
+                    <span class="text-xl font-semibold text-white "><i class='bx bxl-html5 text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>JavaScript</span>
+                    <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                        <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 50%;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill Item-4 -->
+                <div class="flex flex-col hover:scale-103 rounded-2xl  p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out transition-all duration-800">
+                  <span class="text-xl font-semibold text-white "><i class='bx bxl-tailwind-css text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>Tailwind Css</span>
+                  <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                      <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 80%;"></div>
+                  </div>
+              </div>
+
+              <!-- Skill Item-5 -->
+              <div class="flex flex-col hover:scale-103 rounded-2xl  p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out transition-all duration-800">
+                <span class="text-xl font-semibold text-white "><i class='bx bxl-flutter text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>Flutter</span>
+                <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                    <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 85%;"></div>
+                </div>
+            </div>
+  
+    
+                   <!-- Skill Item-6 -->
+                   <div class="flex flex-col hover:scale-103 rounded-2xl  p-5 hover:[box-shadow:0_0_10px_#33449e] ease-in-out transition-all duration-800">
+                    <span class="text-xl font-semibold text-white "><i class='bx bxl-git text-2xl sm:text-3xl  font-semibold p-2 text-[#11F79B]'></i>Git</span>
+                    <div class="w-full bg-gray-700 h-2 rounded-md mt-2">
+                        <div class="bg-gradient-to-br from-cyan-600 to-[#11F79B] h-2 rounded-md" style="width: 98%;"></div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </section>
+         <!-- skills section ends -->
+
+         <!-- certifications section starts -->
+         <section id="Certifications" class="py-20 pt-[100px] bg-[#212124]" data-aos="zoom-in-down">
+          <div class="container mx-auto px-6">
+            <!-- certifications heading -->
+            <h2 class="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-400 p-2">Certifications</h2>
+          </div>
+           <!-- certificates -->
+          <div class="flex flex-wrap justify-center gap-10 p-8 mt-10"  data-aos="zoom-in-down" data-aos-delay="300">
+             <!-- certificate-1 -->
+            <div class="max-w-[350px] w-full rounded-2xl shadow-[0_0_7px_#33449e] p-6  hover:shadow-[0_0_10px_#33449e] transition-transform duration-800 hover:scale-103">
+              <div class="text-center mb-4">
+                <i class="bx bxs-badge-check text-4xl text-blue-600"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-center text-[#11F79B]">Full-Stack Web Development</h3>
+              <p class="text-lg italic mb-4 text-center">
+                Earned a Full-Stack Development Certification from Internshala, demonstrating proficiency in HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+              </p>
+              <div class="flex justify-center"> 
+                <a href="/assets/Certificate of Completion.pdf" target="_blank" class="px-4 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition-all duration-500"><i class='bx bx-book-open p-1'></i> Open Certificate
+                </a>
+              </div>
+            </div>
+
+            <!-- certificate-2 -->
+            <div class="max-w-[350px] w-full rounded-2xl shadow-[0_0_7px_#33449e] p-6  hover:shadow-[0_0_10px_#33449e] transition-transform duration-800 hover:scale-103">
+              <div class="text-center mb-4">
+                <i class="bx bxs-badge-check text-4xl text-blue-600"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-center text-[#11F79B]">Full-Stack Web Development</h3>
+              <p class="text-lg italic mb-4 text-center">
+                Earned a Full-Stack Development Certification from Internshala, demonstrating proficiency in HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+              </p>
+              <div class="flex justify-center"> 
+                <a href="/assets/Certificate of Completion.pdf" target="_blank" class="px-4 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition-all duration-500"> <i class='bx bx-book-open p-1'></i>
+                  Open Certificate
+                </a>
+              </div>
+            </div>
+
+             <!-- certificate-3 -->
+             <div class="max-w-[350px] w-full rounded-2xl shadow-[0_0_7px_#33449e] p-6  hover:shadow-[0_0_10px_#33449e] transition-transform duration-800 hover:scale-103">
+              <div class="text-center mb-4">
+                <i class="bx bxs-badge-check text-4xl text-blue-600"></i>
+              </div>
+              <h3 class="text-2xl font-bold mb-4 text-center text-[#11F79B]">Full-Stack Web Development</h3>
+              <p class="text-lg italic mb-4 text-center">
+                Earned a Full-Stack Development Certification from Internshala, demonstrating proficiency in HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+              </p>
+              <div class="flex justify-center"> 
+                <a href="/assets/Certificate of Completion.pdf" target="_blank" class="px-4 py-2 bg-blue-900 text-white rounded-lg hover:bg-blue-700 transition-all duration-500"> <i class='bx bx-book-open p-1'></i>
+                  Open Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- certifications section ends -->
+
+          <!-- Projects section starts -->
+          <section id="projects" class="py-20 pt-[100px] bg-[#212124]" data-aos="zoom-in-down">
+            <div class="container mx-auto px-6">
+              <h2 class="text-center text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-400 p-2">Projects</h2>
+            </div>
+          
+            <div class="swiper mySwiper" data-aos="zoom-in-up" data-aos-delay="300">
+              <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide flex flex-col items-center text-center ">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">E-Commerce</h3>
+                 <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                  <img src="/assets/e-com.jpg" 
+                  alt="Wanderlust Project" 
+                  class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                 </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base">An online shopping platform with secure payments.</p>
+                </div>
+          
+                <!-- Slide 2 -->
+                <div class="swiper-slide flex flex-col items-center text-center">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">Weather Forecast Dashboard</h3>
+                  <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                    <img src="/assets/weather-app.png" 
+                    alt="Wanderlust Project" 
+                    class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                   </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base"></p>
+                </div>
+          
+                <!-- Slide 3 -->
+                <div class="swiper-slide flex flex-col items-center text-center">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">Expense Tracker</h3>
+                  <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                    <img src="/assets/expense.png" 
+                    alt="Wanderlust Project" 
+                    class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                   </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base">Tracks income and expenses with a clean UI and local storage for data persistence.</p>
+                </div>
+          
+                <!-- Slide 4 -->
+                <div class="swiper-slide flex flex-col items-center text-center">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">Task Manager App</h3>
+                  <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                    <img src="/assets/task_manager.png" 
+                    alt="Wanderlust Project" 
+                    class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                   </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base">Fetches live weather data using an API and displays temperature, humidity, and forecast.</p>
+                </div>
+          
+                <!-- Slide 5 -->
+                <div class="swiper-slide flex flex-col items-center text-center">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">Portfolio Website</h3>
+                  <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                    <img src="/assets/port.jpg" 
+                    alt="Wanderlust Project" 
+                    class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                   </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base">A personal portfolio to showcase skills and projects.</p>
+                </div>
+          
+                <!-- Slide 6 -->
+                <div class="swiper-slide flex flex-col items-center text-center">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white">Blog Platform</h3>
+                  <div class="w-full max-w-lg h-auto mt-4 max-md:w-[400px] max-sm:w-[300px] max-md:p-3 rounded-lg">
+                    <img src="https://plus.unsplash.com/premium_vector-1682299635821-ba03e8c5a94d?q=80&w=500" 
+                    alt="Wanderlust Project" 
+                    class=" object-cover mt-4 max-md:w-[400px] max-sm:w-[300px]  shadow-[0_0_5px_0.5px_#11F79B] hover:scale-105 hover:shadow-[0_0_10px_1px_#11F79B] hover:drop-shadow-[0_0_5px_#33449e] transition-all ease-in-out duration-800 rounded-lg">
+                   </div>
+                  <p class="text-gray-300 px-4 mt-2 text-sm sm:text-base">A blogging platform with user authentication.</p>
+                </div>
+              </div>
+          
+              <!-- Swiper Controls -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+           <!-- projects section ends -->
+
+
+           <!-- conatcts section starts -->
+           <section id="contact" class="py-20 pt-[100px] bg-[#212124]" data-aos="zoom-in-down">
+            <div class="container mx-auto px-6">
+              <h2 class="text-center text-3xl sm:text-4xl mb-10 lg:text-6xl font-bold text-cyan-400 p-2">Contact Me</h2>
+            </div>
+            <div class="container mx-auto px-6">
+              <form class="max-w-lg mx-auto flex flex-col items-center">
+                <div class="w-full">
+                  <input type="text" placeholder="Enter Name" class="w-full p-3 mb-4 rounded-2xl focus:border-[1px] focus:border-[#33449e] border-[0.5px] transition-all duration-300 ease-linear hover:scale-103 border-[#11F79B] outline-none" data-aos="fade-left" data-aos-delay="500">
+                  <input type="email" placeholder="Enter Email" class="w-full p-3 mb-4 rounded-2xl focus:border-[1px] focus:border-[#33449e] border-[0.5px] transition-all duration-300 ease-linear hover:scale-103 border-[#11F79B] outline-none" data-aos="fade-right" data-aos-delay="500">
+                  <textarea placeholder="Enter Message" class="w-full p-3 mb-4 rounded-2xl focus:border-[1px] focus:border-[#33449e] border-[0.5px] transition-all duration-300 ease-linear hover:scale-103 border-[#11F79B] outline-none" rows="5"  data-aos="fade-left" data-aos-delay="500"></textarea>
+                </div>
+                <button type="submit" class="p-3 font-bold bg-blue-900 rounded-2xl hover:bg-blue-700 transition-all duration-300 ease-linear hover:scale-103" data-aos="zoom-in-up"><i class="bx bx-send m-1"></i>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </section>
+            <!-- conatcts section ends -->
+
+
+            <!-- footer starts -->
+
+            <footer class="bg-[#212124] py-7 border-t-[1px] border-gray-800">
+              <div class="container mx-auto px-7 flex justify-center">
+                <a href="tel:+91-8881368821" class="p-3 hover:text-[#11F79B]  text-blue-200 hover:scale-110 transition-transform duration-300 ease-in-out" ><i class='bx bxs-phone text-3xl border-2 border-blue-700 rounded-full p-1'></i>
+                </a>
+                <a href="mailto:aviral.srivastava0007@gmail.com" class="p-3 hover:text-[#11F79B] text-blue-200 hover:scale-110 transition-transform duration-300 ease-in-out "><i class='bx bxl-gmail text-3xl border-2 border-blue-700 rounded-full p-1'></i>
+                </a>
+              </div>
+            </footer>
+             <!-- footer ends -->
+
+
+             <!-- script for swiper.js -->
+           <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+           <!-- aos script cdn -->
+           <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <!-- added functionalities for #mobile-menu , read-more button and swiper.js code is present -->
+          <script>
+            const menuToggle = document.getElementById("menu-toggle");
+            const mobileMenu = document.getElementById("mobile-menu");
+
+            menuToggle.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+            mobileMenu.classList.toggle("translate-y-0");
+          });
+
+               // Close menu when a link is clicked
+            document.querySelectorAll("#mobile-menu a").forEach(link => {
+               link.addEventListener("click", () => {
+               mobileMenu.classList.add("hidden");
+               mobileMenu.classList.remove("translate-y-0");
+              });
+          });
+
+          // Read more button
+         const readMoreBtn = document.getElementById('read-more-btn');
+         const moreContent = document.getElementById('more-content');
+
+          readMoreBtn.addEventListener('click', () => {
+          moreContent.classList.toggle('hidden');
+             if (moreContent.classList.contains('hidden')) {
+               readMoreBtn.innerHTML = '<i class="bx bx-chevrons-down"></i> <span>Read More</span>';
+              } else {
+               readMoreBtn.innerHTML = '<i class="bx bx-chevrons-up"></i> <span>Read Less</span>';
+              }
+            }
+          );
+
+          // swiper.js
+          var swiper = new Swiper(".mySwiper", {
+            speed: 600,
+            parallax: true,
+            slidesPerView: 1,  
+            spaceBetween: 10,  
+            loop: true,     
+            pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+            },
+             navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            on: {
+             slideChangeTransitionStart: function () {
+             let activeSlide = document.querySelector(".swiper-slide-active img");
+
+            // Add Tailwind hover effect classes
+            activeSlide.classList.add("scale-105", "shadow-lg", "shadow-[0_0_10px_1px_#11F79B]", "drop-shadow-[0_0_5px_#33449e]", "transition-all", "ease-in-out", "duration-500");
+
+            // Remove the hover effect after a delay
+             setTimeout(() => {
+              activeSlide.classList.remove("shadow-lg");
+              }, 500);
+             },
+            },
+          });
+
+          //initialize aos 
+          AOS.init({
+            duration:800,
+            easing:'ease'
+          });
+          </script>
+          
+</body>
+</html>
